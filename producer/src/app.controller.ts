@@ -14,7 +14,7 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Get('kafka-test')
+  @Get('produce')
   testKafka() {
     return this.client.emit('kafka.demo', { foo: 'hello world' });
   }
