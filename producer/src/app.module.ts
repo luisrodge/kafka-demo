@@ -15,7 +15,7 @@ import { AppService } from './app.service';
             brokers: ['localhost:29092'],
           },
           consumer: {
-            groupId: 'demo-consumer',
+            groupId: 'kafka-demo',
           },
         },
       },
